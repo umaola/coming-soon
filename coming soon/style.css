@@ -7,8 +7,47 @@ body{
     background-size: cover;
 }
 
+/* Container div */
+#container{
+    position: fixed;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 600px) {
+  #container {
+    width: 100%;
+  }
+}
 
+/* Header - Coming Soon */
+#header{
+    color: #BA1540;
+    text-transform: uppercase;
+    font-size: 8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  #header {
+    font-size: 5rem;
+  }
+}
 
+/* Text - Description */
+#text{
+    color: #FDDE18;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  #text {
+    font-size: 1rem;
+  }
+}
 /* .container{
     display: flex;
     width: 50%;
