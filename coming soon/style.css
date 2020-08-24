@@ -55,6 +55,16 @@ body{
     left: 20%;
 } */
 
+#socials{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+#socials i{
+    padding: 1rem;
+    color: #FDDE18
+}
 
 /* .container{
     display: flex;
