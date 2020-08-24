@@ -39,7 +39,7 @@ body{
 
 /* Text - Description */
 #text{
-    color: #FDDE18;
+    color: #FCD480;
     text-transform: uppercase;
     font-size: 1em;
     text-align: center;
@@ -71,8 +71,8 @@ body{
 } */
 
 #socials i{
-    padding: 1rem;
-    color: #FDDE18
+    padding-right: 1rem;
+    color: #EE3350;
 }
 @media only screen and (max-width: 600px) {
   #socials li {
