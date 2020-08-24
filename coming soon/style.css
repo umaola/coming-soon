@@ -2,7 +2,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container{
+body{
+    background-image: url('ps_controller.jpg');
+    background-size: cover;
+}
+
+
+
+/* .container{
     display: flex;
     width: 50%;
     height: auto;
@@ -55,4 +62,4 @@ button{
 }
 i{
     padding: 5px;
-}
+} */
