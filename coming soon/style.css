@@ -24,7 +24,8 @@ body{
 
 /* Header - Coming Soon */
 #header{
-    color: #BA1540;
+    /* color: #BA1540; */
+    color: white;
     text-transform: uppercase;
     font-size: 8rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -48,6 +49,13 @@ body{
     font-size: 1rem;
   }
 }
+
+/* #subscribe{
+    position: absolute;
+    left: 20%;
+} */
+
+
 /* .container{
     display: flex;
     width: 50%;
